@@ -1,11 +1,67 @@
-body {
-  background-color: powderblue;
+body{
+ margin: 0;
+ padding: 0;
+font-family: monospace;
+ background-color: #ccc;
+
 }
-h3 {
-  font-size: 60px;
-  font-family:Papyrus;
-  color: blue;
+.container
+{
+  position: relative;
+  width: 98%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 400px;
 }
-h4 {
-  color: blue;
+.full-width
+{
+  width: 100%;
 }
+
+
+nav
+{
+  width:100%;
+  background: #ffffff;
+}
+nav h3
+{
+  margin: 0;
+  padding: 0;
+  float: right;
+  padding: 10px 5px;
+}
+nav h3 a
+{
+  color: #000000;
+}
+ul
+{
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+ul li
+{
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  transition: .5s;
+}
+ul li a
+{
+  color:#ccc;
+  text-decoration: underline;
+}
+ul li:hover
+{
+  background: #e91e63;
+}
+
+
+
+
+}
+
