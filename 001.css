@@ -3,8 +3,8 @@ body{
  padding: 0;
 font-family: monospace;
  background-color: #ccc;
-
 }
+
 .container
 {
   position: relative;
@@ -32,16 +32,19 @@ nav h3
   float: right;
   padding: 10px 5px;
 }
+
 nav h3 a
 {
   color: #000000;
 }
+
 ul
 {
   margin: 0;
   padding: 0;
   float: right;
 }
+
 ul li
 {
   list-style: none;
@@ -49,11 +52,13 @@ ul li
   padding: 10px;
   transition: .5s;
 }
+
 ul li a
 {
   color:#ccc;
   text-decoration: underline;
 }
+
 ul li:hover
 {
   background: #e91e63;
