@@ -87,7 +87,7 @@ background: #e91e63;
 text-transform: uppercase;
 cursor:pointer;
 }
-@media screen and (max-width:200px)
+@media (max-width:400px)
 {
   nav
   {
