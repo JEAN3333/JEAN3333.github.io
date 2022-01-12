@@ -1,71 +1,117 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <script src="index.min.js"></script>
-    <link rel="stylesheet" href="002.css">
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="full-width">
-        <nav>
-          <img src="https://i.loli.net/2021/12/01/koRYifnJ2HqaxhQ.png" width="50" style="float:left;width:60px">
-          <h3 class="resume"><a href="#">CV</a></h3>
-          <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Contact</a></li>
-          </ul>
-          <div style="clear: both"></div>
-        </nav>
-      <div class="responsive-bar">
-        <img src="https://i.loli.net/2021/12/01/koRYifnJ2HqaxhQ.png" width="50" style="float:left;width:40px">
-        <h4 class="menu">Menu</h4>
-         <div style="clear: both"></div>
-      </div>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script type="text/javascript">
-          $(document).ready(function(){
-            $(".menu").click(function(){
-              $("nav").slideToggle(500);
-            })
-          })
-      </script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <script src="index.min.js"></script>
+  <link rel="stylesheet" href="002.css">
+  <link rel="stylesheet" href="lib/fontawesome-free-5.15.4-web/css/all.css">
+</head>
 
-      <!-- <div class="main">
-             <div class="item item-1">1</div>
-             <div class="item item-2">2</div>
-             <div class="item item-3">3</div>
-             <div class="item item-4">4</div>
-             <div class="item item-5">5</div>
-      </div> -->
+<body>
+  <header class="home">
+    <nav class="sticky">
+      <img src="https://s2.loli.net/2022/01/09/Kocy3x6vlNMWw7E.png" >
+      <h3 class="resume"><a href="#">CV</a></h3>
+      <ul>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#myworks">Works</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#contactme">Contact</a></li>
+      </ul>
+      <div style="clear: both"></div>
+    </nav>
+    <div class="responsive-bar">
+      <img src="https://s2.loli.net/2022/01/09/Kocy3x6vlNMWw7E.png" width="50px" style="float:left;width:40px">
+      <h4 class="menu">Menu</h4>
+      <div style="clear: both"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".menu").click(function() {
+          $("nav").slideToggle(400);
+        })
+      })
+    </script>
 
-<div class="wrapper">
-    <div class="profile-card">
-      <div class="content">
-        <h1>Hi~</h1>
-        <p>I’m an UX designer Majored in visual design and also have the industrial design background.</p>
-      </div>
-      <div class="profile-image">
-        <img src="https://s2.loli.net/2021/12/28/RJuKLsUenpPqAjx.png" >
 
+
+  </header>
+
+  <div id="intro"class="intro">
+    <div class="p1">
+      <img src="https://s2.loli.net/2022/01/09/QuBT6pdAecL3b1h.png">
+    </div>
+    <h1 class="title-content">
+      Hi~
+    </h1>
+    <h3 class="intro-content">
+      I’m an UX designer
+      Majored in visual design
+      also have industrial design background.
+    </h3>
+    <div class="p2">
+      <img src="https://s2.loli.net/2022/01/09/jmQPX5FMK4ANq9V.png">
     </div>
   </div>
-
-
-
-
-
-      <div class="P1">
-      <img src="https://s2.loli.net/2021/12/28/5T8WEcK2Q1iPe6n.png" >
+  <section id="myworks" class="myworks">
+    <div class="titlebox">
+        <img src="https://s2.loli.net/2022/01/11/xJvTO4oqkaw1n6F.png" >
+        <h2 class="title1">My works</h2>
     </div>
-      <!-- <div class="content">
-      <h1>Hi~</h1>
-      <p>I’m an UX designer Majored in visual design and also have the industrial design background.</p>
-      </div> -->
 
-  </body>
-</html>
+    <div class="works">
+    <div class="box">
+      <div class="work">
+        <img src="https://s2.loli.net/2022/01/11/Rg8WfIjY15DziXK.png" >
+        <h3 class="work-title">Product Design</h4>
+      </div>
+    </div>
+    <div class="box">
+      <div class="work">
+        <img src="https://s2.loli.net/2022/01/11/Rg8WfIjY15DziXK.png" >
+        <h3 class="work-title">Reading Experience</h4>
+      </div>
+    </div>
+    <div class="box">
+      <div class="work">
+        <img src="https://s2.loli.net/2022/01/11/Rg8WfIjY15DziXK.png" >
+        <h3 class="work-title">COBO-Bank</h4>
+      </div>
+    </div>
+    <div class="box">
+      <div class="work">
+        <img src="https://s2.loli.net/2022/01/11/Rg8WfIjY15DziXK.png" >
+        <h3 class="work-title">Graphic Design</h4>
+      </div>
+    </div>
+    <div class="box">
+      <div class="work">
+        <img src="https://s2.loli.net/2022/01/11/Rg8WfIjY15DziXK.png" >
+        <h3 class="work-title">UI-Redesign</h4>
+      </div>
+    </div>
+    <div class="box">
+      <div class="work">
+        <img src="https://s2.loli.net/2022/01/11/Rg8WfIjY15DziXK.png" >
+        <h3 class="work-title">Product Design</h4>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <section id="contactme"class="contactme">
+  <div class="image">
+
+
+
+
+
+ </section>
+
+
+
+</body>
+
