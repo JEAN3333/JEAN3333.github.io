@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  margin-top: -20px;
+  background-color: #000;
+  justify-content: center;
+}
+img{
+  margin-bottom: 10px;
+
+  /* width: 100vw;
+  padding: 0 ; */
+  /* border: 0; */
+}
+.box{
+  background-color: #fff;
+  margin-bottom: 10%;
+}
+.box img{
+  padding: 10% 25%;
+}
